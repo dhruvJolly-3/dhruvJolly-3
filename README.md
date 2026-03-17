@@ -4,8 +4,8 @@
 
 **AI/ML Engineer** • B.Tech CSE (AI Specialization) • ABESIT, AKTU '24
 
-[![https://www.linkedin.com/in/dhruvjolly12/](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![dhruvjolly2001@gmail.com](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
 
 </div>
 
@@ -23,7 +23,6 @@ Currently focused on: **Machine Learning → Deep Learning → LLMs & RAG system
 
 📄 **Facial-Emotions-Based Recommendation System Using Deep Learning**
 > Published at the International Conference on Machine Intelligence for Research and Innovations — Scopus-indexed, Springer Nature
-> Co-authored with Akash Gaur & Ayush Gupta | Guided by Dr. Vineet Kumar Singh
 
 ---
 
@@ -32,11 +31,11 @@ Currently focused on: **Machine Learning → Deep Learning → LLMs & RAG system
 **Languages**
 `Python` `Java` `C` `JavaScript` `SQL`
 
-**AI/ML**
-`NumPy` `Pandas` `Scikit-learn` `TensorFlow` `OpenCV`
+**AI/ML** *(currently learning)*
+`NumPy` `Pandas`
 
 **Web & Tools**
-`Flask` `HTML/CSS` `Git` `Jupyter` `Google Colab`
+`HTML/CSS` `Git` `Jupyter` `Google Colab`
 
 ---
 
