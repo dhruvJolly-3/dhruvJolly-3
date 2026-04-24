@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=120&section=header&text=Hey,%20I'm%20Dhruv%20Jolly%20👋&fontSize=36&fontColor=58a6ff&animation=fadeIn&fontAlignY=65" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%7C+MERN+%2B+AI-Curious;Building+products+end-to-end;B.Tech+CSE+%28AI+Specialization%29+%7C+AKTU+%2724;Published+Researcher+%7C+Scopus+Indexed;Open+to+SDE+%2F+Full-Stack+roles+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%7C+MERN+%2B+LLM+Integration;Building+AI-native+products+end-to-end;B.Tech+CSE+%28AI+Specialization%29+%7C+AKTU+%2724;Published+Researcher+%7C+Scopus+Indexed;Open+to+SDE+%2F+Full-Stack+roles+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <br/>
 
@@ -21,18 +21,20 @@
 ```python
 dhruv = {
     "name"       : "Dhruv Jolly",
-    "role"       : "Full-Stack Developer (MERN)",
+    "role"       : "Full-Stack Developer (MERN + LLM Integration)",
     "education"  : "B.Tech CSE (AI Specialization) — ABESIT, AKTU '24",
     "location"   : "NCR, India 🇮🇳",
     "research"   : "Scopus-indexed paper on Facial Emotion Recognition",
-    "building"   : ["DevHire — AI-powered job board (MERN + LLM)"],
+    "building"   : ["DevHire — AI-powered job board (MERN + Claude API)"],
     "shipped"    : ["FitPulse — full-stack fitness tracker"],
-    "next"       : "Full-Stack role → AI Product Engineering",
+    "focus"      : "Shipping production web apps with AI features built in",
     "open_to"    : "SDE / Full-Stack Developer roles"
 }
 ```
 
-I build products end-to-end. Currently going deep on the MERN stack while keeping one foot in AI/ML — published a Scopus-indexed paper on facial emotion recognition during my B.Tech, which is what pulled me toward AI originally. Near-term focus is shipping polished full-stack projects; longer-term path is AI product engineering.
+I build full-stack products end-to-end and integrate LLM APIs where they solve a real user problem — not as demos. Currently going deep on MERN while shipping **DevHire**, a job board that uses Claude's API to match developers to roles by analyzing their skills against live listings.
+
+My AI background is grounded — I published a Scopus-indexed paper on facial emotion recognition during my B.Tech, working with CNN architectures and TensorFlow. That research work is what drives how I think about ML in applications: **keep the frontend solid, plug in AI where it's the right tool, and ship**.
 
 ---
 
@@ -46,13 +48,19 @@ I build products end-to-end. Currently going deep on the MERN stack while keepin
 
 ## 🛠️ Tech Stack
 
-**Building with now**
+**Full-Stack (building with now)**
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+**AI Integration**
+
+![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-1E40AF?style=for-the-badge&logoColor=white)
 
 **Languages**
 
@@ -62,16 +70,11 @@ I build products end-to-end. Currently going deep on the MERN stack while keepin
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-**Research background**
+**ML Research Background**
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-**Exploring**
-
-![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 **Tools & Platforms**
 
@@ -86,7 +89,7 @@ I build products end-to-end. Currently going deep on the MERN stack while keepin
 
 | Project | What it does | Stack | Status |
 |---------|--------------|-------|--------|
-| 🎯 **DevHire** | Job board for developers with AI-powered skill-to-job matching | MERN + Claude API | 🚧 Building |
+| 🎯 **DevHire** | Job board with AI-powered skill-to-role matching using Claude API | MERN + Claude API | 🚧 Building |
 | 💪 **FitPulse** | Full-stack fitness tracker — nutrition, workouts, sleep, steps | MERN + JWT | ✅ Shipped |
 | 📄 **FEBRS** | Facial emotion-based recommendation system (Scopus paper) | Python, TensorFlow, CNN | 📚 Research |
 
@@ -100,8 +103,8 @@ I build products end-to-end. Currently going deep on the MERN stack while keepin
 
 - ⚛️ Going deeper on React — hooks, forms, routing, state patterns
 - 🔧 MERN fundamentals — Express APIs, MongoDB schemas, REST design
-- 🤖 LLM API integration — prompt engineering, structured outputs
-- 📐 Solid DSA basics in JavaScript (NeetCode 150 focused subset)
+- 🤖 LLM API integration — structured outputs, prompt design, error handling
+- 📐 DSA in JavaScript (NeetCode 150 focused subset)
 
 ---
 
