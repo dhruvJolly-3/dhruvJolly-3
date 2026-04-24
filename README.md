@@ -23,7 +23,7 @@ dhruv = {
     "name"       : "Dhruv Jolly",
     "role"       : "Full-Stack Developer (MERN + LLM Integration)",
     "education"  : "B.Tech CSE (AI Specialization) — ABESIT, AKTU '24",
-    "location"   : "NCR, India 🇮🇳",
+    "location"   : "Delhi, India 🇮🇳",
     "research"   : "Scopus-indexed paper on Facial Emotion Recognition",
     "building"   : ["DevHire — AI-powered job board (MERN + Claude API)"],
     "shipped"    : ["FitPulse — full-stack fitness tracker"],
