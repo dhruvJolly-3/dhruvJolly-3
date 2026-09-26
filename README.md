@@ -32,7 +32,7 @@ dhruv = {
 }
 ```
 
-I build full-stack products end to end: React on the front, Express + MongoDB on the back, deployed and tested. My latest shipped project is **FitPulse**, a fitness tracker you can install on your phone, with personalised calorie targets, in-app music and a secure auth flow. Now I'm building **DevHire**, a job board that uses Claude's API to match developers to roles by comparing their skills with live listings.
+I build full-stack products end to end: React on the front, Express + MongoDB on the back, deployed and tested. My latest shipped project is **FitPulse**, a fitness tracker you can install on your phone, with personalised calorie targets, in-app music, an animated landing page and a secure auth flow. Now I'm building **DevHire**, a job board that uses Claude's API to match developers to roles by comparing their skills with live listings.
 
 My AI background comes from research: a Scopus-indexed paper on facial emotion recognition using CNNs and TensorFlow. It shapes how I use AI in products: **keep the core app solid, add AI where it's the right tool, and ship.**
 
@@ -40,15 +40,41 @@ My AI background comes from research: a Scopus-indexed paper on facial emotion r
 
 ## 🚀 Featured Project: FitPulse
 
-<a href="https://github.com/dhruvJolly-3/fitpulse"><img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/dashboard.png" width="100%" alt="FitPulse dashboard"/></a>
+<a href="https://fitpulse-ruddy.vercel.app"><img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/signin.png" width="100%" alt="FitPulse landing page"/></a>
+
+<table>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/dashboard.png" alt="Dashboard"/></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/dashboard-dark.png" alt="Dashboard, dark mode"/></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/training.png" alt="Training and music player"/></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/nutrition.png" alt="Nutrition"/></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/mobile-signin.png" width="19%" alt="Mobile sign-in"/>
+  <img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/mobile-dashboard.png" width="19%" alt="Mobile dashboard"/>
+  <img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/mobile-nutrition.png" width="19%" alt="Mobile nutrition"/>
+  <img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/mobile-training-dark.png" width="19%" alt="Mobile training, dark"/>
+  <img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/mobile-sleep-dark.png" width="19%" alt="Mobile sleep, dark"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/pulse-moods.png" width="90%" alt="Pulse, the FitPulse mascot"/>
+</p>
 
 **All-in-one fitness tracker**: nutrition, training, hydration, sleep and steps, with targets calculated from your own body stats.
 [**🔗 Live app**](https://fitpulse-ruddy.vercel.app) · [**📂 Code**](https://github.com/dhruvJolly-3/fitpulse)
 
 - 🎯 **Personal targets:** TDEE (Mifflin-St Jeor) and macros from the user's profile
+- ✨ **Animated landing page:** full-body hero artwork, rising headline and layered mouse parallax, with reduced-motion support
+- 🟢 **Custom SVG mascot:** "Pulse", a gym bro with 7 animated moods, built in pure SVG + CSS (no image files)
 - 📱 **Installable PWA:** home-screen app, service worker, mobile-first layout, light/dark mode
 - 🎧 **In-app music:** YouTube player + Spotify (OAuth PKCE), queue, shuffle, pop-out player
 - 🔐 **Secure auth:** JWT, bcrypt, Google sign-in, hashed reset tokens, rate-limited login
+- ⚡ **Resilient loading:** handles free-tier API cold starts with a 20s timeout instead of hanging
 - 🧪 **Tested:** 40 API integration tests (auth, validation, per-user data isolation, rate limits)
 - ☁️ **Deployed:** React on Vercel · Express on Render · MongoDB Atlas
 
@@ -58,7 +84,7 @@ My AI background comes from research: a Scopus-indexed paper on facial emotion r
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
-| 💪 **[FitPulse](https://github.com/dhruvJolly-3/fitpulse)** · [live](https://fitpulse-ruddy.vercel.app) | Installable fitness tracker: nutrition, workouts, sleep, water, steps, in-app music | MERN · PWA · OAuth (Google, Spotify) · Node test runner | ✅ Live |
+| 💪 **[FitPulse](https://github.com/dhruvJolly-3/fitpulse)** · [live](https://fitpulse-ruddy.vercel.app) | Installable fitness tracker: nutrition, workouts, sleep, water, steps, in-app music, animated landing page | MERN · PWA · OAuth (Google, Spotify) · Node test runner | ✅ Live |
 | 🎯 **DevHire** | Job board with AI skill-to-role matching | MERN · Claude API | 🚧 Building |
 | 📄 **FEBRS** | Facial-emotion-based recommendation system | Python · TensorFlow · CNN | 📚 Published |
 
@@ -80,6 +106,7 @@ My AI background comes from research: a Scopus-indexed paper on facial emotion r
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SVG](https://img.shields.io/badge/SVG_Animation-FFB13B?style=for-the-badge&logo=svg&logoColor=black)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
 
 **Backend & Database**
@@ -115,6 +142,7 @@ My AI background comes from research: a Scopus-indexed paper on facial emotion r
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 
 ---
 
@@ -125,6 +153,7 @@ My AI background comes from research: a Scopus-indexed paper on facial emotion r
 ![Then](https://img.shields.io/badge/Then-AI%20Product%20Engineering-lightgrey?style=flat-square)
 
 - ⚛️ Going deeper on React: hooks, state patterns, performance
+- 🎨 UI motion: CSS animation, SVG and parallax without heavy libraries
 - 🔧 Backend design: REST APIs, MongoDB schemas, auth and security
 - 🧪 Testing: API integration tests and end-to-end browser tests
 - 🤖 LLM integration: structured outputs, prompt design, error handling
