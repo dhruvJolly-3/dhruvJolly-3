@@ -2,13 +2,14 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=120&section=header&text=Hey,%20I'm%20Dhruv%20Jolly%20👋&fontSize=36&fontColor=58a6ff&animation=fadeIn&fontAlignY=65" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Full-Stack+Developer+%7C+MERN+%2B+LLM+Integration;Shipped+FitPulse+%E2%80%94+an+installable+fitness+app;B.Tech+CSE+%28AI+Specialization%29+%7C+AKTU+%2724;Published+Researcher+%7C+Scopus+Indexed;Open+to+SDE+%2F+Full-Stack+roles+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Full-Stack+Developer+%7C+MERN+Stack;Shipped+DevHire+%E2%80%94+a+job+board+for+Indian+startups;Shipped+FitPulse+%E2%80%94+an+installable+fitness+app;B.Tech+CSE+%28AI+Specialization%29+%7C+AKTU+%2724;Published+Researcher+%7C+Scopus+Indexed;Open+to+SDE+%2F+Full-Stack+roles+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhruvjolly12)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhruvjolly2001@gmail.com)
-[![FitPulse](https://img.shields.io/badge/Live_Project-FitPulse-c9e265?style=for-the-badge&logo=vercel&logoColor=black)](https://fitpulse-ruddy.vercel.app)
+[![DevHire](https://img.shields.io/badge/Live-DevHire-5B4FF5?style=for-the-badge&logo=vercel&logoColor=white)](https://devhire-neon.vercel.app)
+[![FitPulse](https://img.shields.io/badge/Live-FitPulse-c9e265?style=for-the-badge&logo=vercel&logoColor=black)](https://fitpulse-ruddy.vercel.app)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=dhruvJolly-3&label=Profile%20Views&color=58a6ff&style=flat)
 
@@ -21,24 +22,58 @@
 ```python
 dhruv = {
     "name"      : "Dhruv Jolly",
-    "role"      : "Full-Stack Developer (MERN + LLM Integration)",
+    "role"      : "Full-Stack Developer (MERN)",
     "education" : "B.Tech CSE (AI Specialization) — ABESIT, AKTU '24",
     "location"  : "Delhi, India 🇮🇳",
     "research"  : "Scopus-indexed paper on Facial Emotion Recognition",
-    "shipped"   : ["FitPulse — installable fitness tracker (MERN, PWA, OAuth, tested)"],
-    "building"  : ["DevHire — AI-powered job board (MERN + Claude API)"],
-    "focus"     : "Production web apps with AI where it actually helps",
+    "shipped"   : [
+        "DevHire — job board for Indian startups (MERN, live job feed, employer dashboard)",
+        "FitPulse — installable fitness tracker (MERN, PWA, OAuth, tested)",
+    ],
+    "focus"     : "Production web apps: clean APIs, solid auth, polished UI",
     "open_to"   : "SDE / Full-Stack Developer roles",
 }
 ```
 
-I build full-stack products end to end: React on the front, Express + MongoDB on the back, deployed and tested. My latest shipped project is **FitPulse**, a fitness tracker you can install on your phone, with personalised calorie targets, in-app music, an animated landing page and a secure auth flow. Now I'm building **DevHire**, a job board that uses Claude's API to match developers to roles by comparing their skills with live listings.
+I build full-stack products end to end: React on the front, Express + MongoDB on the back, deployed and tested. I've shipped two:
 
-My AI background comes from research: a Scopus-indexed paper on facial emotion recognition using CNNs and TensorFlow. It shapes how I use AI in products: **keep the core app solid, add AI where it's the right tool, and ship.**
+- **DevHire**: a job board for developer roles at Indian startups. It pulls live jobs from public job APIs, scores each role against your resume, and gives employers a dashboard to review and shortlist applicants.
+- **FitPulse**: a fitness tracker you can install on your phone, with personalised calorie targets, in-app music, an animated landing page and a secure auth flow.
+
+My ML background comes from research: a Scopus-indexed paper on facial emotion recognition using CNNs and TensorFlow.
 
 ---
 
-## 🚀 Featured Project: FitPulse
+## 🚀 Featured Project: DevHire
+
+<a href="https://devhire-neon.vercel.app"><img src="https://raw.githubusercontent.com/dhruvJolly-3/devhire/main/public/screenshots/landing-light.png" width="100%" alt="DevHire landing page"/></a>
+
+<table>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/dhruvJolly-3/devhire/main/public/screenshots/jobs.png" alt="Job board with filters"/></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/dhruvJolly-3/devhire/main/public/screenshots/landing-dark.png" alt="Landing page, dark mode"/></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/dhruvJolly-3/devhire/main/public/screenshots/dashboard.png" alt="Employer dashboard"/></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/dhruvJolly-3/devhire/main/public/screenshots/command-palette.png" alt="Command palette search"/></td>
+  </tr>
+</table>
+
+**Job board for developer roles at Indian startups**, for both candidates and employers.
+[**🔗 Live app**](https://devhire-neon.vercel.app) · [**📂 Code**](https://github.com/dhruvJolly-3/devhire)
+
+- 🔄 **Live job feed:** imports jobs from Adzuna and Greenhouse on a schedule, deduplicated in MongoDB
+- 🎯 **Match score:** a 0–100 fit score per job from the user's resume, with strengths and gaps
+- 📄 **Resume upload:** PDF text extracted on the server; also drafts a cover letter per role
+- 🧑‍💼 **Employer dashboard:** listings, applicants ranked by match score, shortlist / reject
+- 🔐 **Access control:** JWT auth, owner-only edits, applicant data visible only to the job's poster
+- 🔎 **Job board:** search, filters, sorting, pagination, company pages, saved and applied jobs
+- 🌗 **Modern UI:** dark mode, ⌘K search, smooth scrolling, parallax, skeleton loaders, mobile menu
+- ☁️ **Deployed:** React on Vercel · Express on Render · MongoDB Atlas
+
+---
+
+## 💪 Featured Project: FitPulse
 
 <a href="https://fitpulse-ruddy.vercel.app"><img src="https://raw.githubusercontent.com/dhruvJolly-3/fitpulse/main/docs/screenshots/signin.png" width="100%" alt="FitPulse landing page"/></a>
 
@@ -84,8 +119,8 @@ My AI background comes from research: a Scopus-indexed paper on facial emotion r
 
 | Project | What it does | Stack | Status |
 |---|---|---|---|
+| 🎯 **[DevHire](https://github.com/dhruvJolly-3/devhire)** · [live](https://devhire-neon.vercel.app) | Job board for Indian startups: live job feed, resume match scores, employer dashboard | MERN · REST APIs · Adzuna API · JWT | ✅ Live |
 | 💪 **[FitPulse](https://github.com/dhruvJolly-3/fitpulse)** · [live](https://fitpulse-ruddy.vercel.app) | Installable fitness tracker: nutrition, workouts, sleep, water, steps, in-app music, animated landing page | MERN · PWA · OAuth (Google, Spotify) · Node test runner | ✅ Live |
-| 🎯 **DevHire** | Job board with AI skill-to-role matching | MERN · Claude API | 🚧 Building |
 | 📄 **FEBRS** | Facial-emotion-based recommendation system | Python · TensorFlow · CNN | 📚 Published |
 
 ---
@@ -104,6 +139,7 @@ My AI background comes from research: a Scopus-indexed paper on facial emotion r
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![SVG](https://img.shields.io/badge/SVG_Animation-FFB13B?style=for-the-badge&logo=svg&logoColor=black)
@@ -115,11 +151,7 @@ My AI background comes from research: a Scopus-indexed paper on facial emotion r
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-
-**AI Integration**
-
-![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-1E40AF?style=for-the-badge&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_APIs-0052CC?style=for-the-badge&logoColor=white)
 
 **Languages**
 
@@ -148,15 +180,14 @@ My AI background comes from research: a Scopus-indexed paper on facial emotion r
 
 ## 📈 Currently Focused On
 
-![Now](https://img.shields.io/badge/Now-Ship%20DevHire%20(MERN%20%2B%20LLM)%20🚧-blue?style=flat-square)
+![Now](https://img.shields.io/badge/Now-Interview%20prep%20(DSA%20%2B%20projects)%20📐-blue?style=flat-square)
 ![Next](https://img.shields.io/badge/Next-Land%20a%20Full--Stack%20role-lightgrey?style=flat-square)
-![Then](https://img.shields.io/badge/Then-AI%20Product%20Engineering-lightgrey?style=flat-square)
+![Then](https://img.shields.io/badge/Then-Grow%20into%20Product%20Engineering-lightgrey?style=flat-square)
 
 - ⚛️ Going deeper on React: hooks, state patterns, performance
-- 🎨 UI motion: CSS animation, SVG and parallax without heavy libraries
 - 🔧 Backend design: REST APIs, MongoDB schemas, auth and security
 - 🧪 Testing: API integration tests and end-to-end browser tests
-- 🤖 LLM integration: structured outputs, prompt design, error handling
+- 🎨 UI motion: CSS animation, SVG and parallax
 - 📐 DSA in JavaScript (NeetCode 150 focused subset)
 
 ---
